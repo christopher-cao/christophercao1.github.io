@@ -1,0 +1,80 @@
+#headshot {
+    max-height: 128px;
+    max-width: 128px;
+    border-radius: 50%;
+}
+
+#main-content { /* just centering the main content */
+
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 250px;
+    width: 700px;
+    text-align: center;
+
+}
+
+#test {
+    height: 100%;
+    position: relative;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+#show-first {
+    animation-name: fadein;
+    animation-duration: 2s;
+}
+
+#show-second {
+    animation-name: fadein;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-fill-mode: backwards;
+}
+
+#show-second.animated {
+    text-color: red;
+}
+
+/* Actual styling */
+
+#chartdiv {
+	height: 500px;
+	position: relative;
+}
+
+#cover-la {
+    background-image: url('../images/downtown-la.jpg');
+}
+
+#cover-hk {
+    background-image: url('../images/aerial_view_HKUST.jpg');
+    background-size: cover;
+    background-position-y: 60%;
+}
+
+#cover-bkk {
+    background-image: url('../images/bangkok.jpg');
+}
+
+#cover-milan {
+    background-image: url('../images/milan-duomo.jpg');
+    background-position-x: 50%;
+    background-position-y: 40%;
+}
+
+#cover-seattle {
+    background-image: url('../images/seattle-skyline.jpg');
+}
+
+.card {
+    width: 50%;
+    margin: 0 auto;
+}
