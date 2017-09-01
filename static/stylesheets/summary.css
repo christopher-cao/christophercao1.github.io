@@ -48,6 +48,7 @@
 #chartdiv {
 	height: 500px;
 	position: relative;
+    margin-top: 50px;
 }
 
 #cover-la {
@@ -78,3 +79,7 @@
     width: 50%;
     margin: 0 auto;
 }
+
+/*i {
+    color:inherit;
+}*/
